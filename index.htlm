@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky 100 - Jeu Hive</title>
+    <script src="https://cdn.jsdelivr.net/npm/hive-keychain@latest/dist/hive-keychain.min.js"></script>
+    <script defer src="game.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        #playButton {
+            font-size: 18px;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        #playButton:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lucky 100 - Pari sur Hive</h1>
+    <p>Misez des SECRET et tentez de doubler votre mise en lançant un dé à 100 faces !</p>
+    <button id="playButton">Jouer</button>
+    <p id="gameResult"></p>
+</body>
+</html>
